@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b675e2e6-c4f3-4de6-b715-702165080c9a" name="Default Changelist" comment="" />
+    <list default="true" id="b675e2e6-c4f3-4de6-b715-702165080c9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/maven/model/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maven/model/HelloWorld.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <workItem from="1569601638828" duration="1456000" />
       <workItem from="1569686080206" duration="281000" />
       <workItem from="1569688386286" duration="33000" />
-      <workItem from="1571583514594" duration="311000" />
+      <workItem from="1571583514594" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1571583580079</created>
