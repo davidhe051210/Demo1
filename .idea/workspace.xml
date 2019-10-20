@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b675e2e6-c4f3-4de6-b715-702165080c9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maven/model/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maven/model/HelloWorld.java" afterDir="false" />
-    </list>
+    <list default="true" id="b675e2e6-c4f3-4de6-b715-702165080c9a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +51,16 @@
       <workItem from="1569601638828" duration="1456000" />
       <workItem from="1569686080206" duration="281000" />
       <workItem from="1569688386286" duration="33000" />
-      <workItem from="1571583514594" duration="58000" />
+      <workItem from="1571583514594" duration="311000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1571583580079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571583580079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
