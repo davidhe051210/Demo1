@@ -1,21 +1,92 @@
 {
-  "method": "POST",
-  "url": "http://mockbin.com/request",
-  "httpVersion": "HTTP/1.1",
-  "queryString": [
-    { "name": "foo", "value": "bar" },
-    { "name": "foo", "value": "baz" }
-  ],
-  "headers": [
-    { "name": "Accept", "value": "application/json" },
-    { "name": "Content-Type", "value": "application/json" }
-  ],
-  "cookies":  [
-    { "name": "foo", "value": "bar" },
-    { "name": "bar", "value": "baz" }
-  ],
-  "postData": {
-    "mimeType": "application/json",
-    "text": "{\"foo\": \"bar\"}"
-  }
+	"method": "POST",
+	"url": "http://cas.sztkd.org.cn/login",
+	"httpVersion": "HTTP/1.1",
+	"queryString": [{
+			"name": "foo",
+			"value": "bar"
+		},
+		{
+			"name": "foo",
+			"value": "baz"
+		}
+	],
+	"headers": [{
+		"name": "Host",
+		"value": "cas.sztkd.org.cn"
+	}, {
+		"name": "Connection",
+		"value": "keep-alive"
+	}, {
+		"name": "Content-Length",
+		"value": "142"
+	}, {
+		"name": "Cache-Control",
+		"value": "max-age=0"
+	}, {
+		"name": "Upgrade-Insecure-Requests",
+		"value": "1"
+	}, {
+		"name": "Origin",
+		"value": "http://cas.sztkd.org.cn"
+	}, {
+		"name": "Content-Type",
+		"value": "application/x-www-form-urlencoded"
+	}, {
+		"name": "User-Agent",
+		"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+	}, {
+		"name": "Accept",
+		"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+	}, {
+		"name": "Referer",
+		"value": "http://cas.sztkd.org.cn/login"
+	}, {
+		"name": "Accept-Encoding",
+		"value": "gzip, deflate"
+	}, {
+		"name": "Accept-Language",
+		"value": "zh-CN,zh;q=0.9"
+	}, {
+		"name": "Cookie",
+		"value": "__session:0.8877273091374591:rmbUser2=true; __session:0.8877273091374591:nickName2=admin; JSESSIONID=E2947CC50671D1C1116C0F76791CE451; __session:0.7218161113762707:=http:; __session:0.7218161113762707:rmbUser2=true; __session:0.7218161113762707:nickName2=admin"
+	}],
+	"cookies": [{
+		"name": "__session:0.8877273091374591:rmbUser2",
+		"value": "true"
+	}, {
+		"name": "__session:0.8877273091374591:nickName2",
+		"value": "admin"
+	}, {
+		"name": "JSESSIONID",
+		"value": "E2947CC50671D1C1116C0F76791CE451"
+	}, {
+		"name": "__session:0.7218161113762707:",
+		"value": "http:"
+	}, {
+		"name": "__session:0.7218161113762707:rmbUser2",
+		"value": "true"
+	}, {
+		"name": "__session:0.7218161113762707:nickName2",
+		"value": "admin"
+	}],
+	"postData": {
+		"params": [{
+			"name": "remoteAddr",
+			"value": "127.0.0.1"
+		}, {
+			"name": "username",
+			"value": "admin"
+		}, {
+			"name": "password",
+			"value": "2"
+		}, {
+			"name": "lt",
+			"value": "_cAD115B10-460F-E3AD-5107-3BD2F72D5079_k1D2964F0-3132-7AEA-A2D5-4C3BDE1685CD"
+		}, {
+			"name": "_eventId",
+			"value": "submit"
+		}],
+		"mimeType": "application/x-www-form-urlencoded"
+	}
 }
